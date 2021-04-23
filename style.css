@@ -1,0 +1,48 @@
+
+
+.inp {
+    border: none;
+    outline: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #696969;
+}
+
+.inp:focus {
+    box-shadow: none;
+    border-bottom: 2px solid #303030;
+}
+
+body {
+    color: #696969;
+}
+
+a{
+    color: #303030;
+    text-decoration: none !important;
+}
+
+.line {
+    width: 215px;
+    display: inline-block;
+    border-top: 1px solid #696969;
+    padding-bottom: 4px;
+}
+#carouselDiv{
+    padding: 0 0 !important;
+}
+
+.container {
+    height: 500px;
+}
+body{
+    background:linear-gradient(to right ,rgb(187, 187, 240),#c8c8c8)
+}
+section {
+    margin-left: 250px;
+    margin-top: 100px;
+    height: 600px;
+    width: 1100px;
+    -webkit-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
