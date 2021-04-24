@@ -1,5 +1,4 @@
 
-
 .inp {
     border: none;
     outline: 0;
@@ -12,37 +11,59 @@
     border-bottom: 2px solid #303030;
 }
 
-body {
-    color: #696969;
-}
-
-a{
+a {
     color: #303030;
     text-decoration: none !important;
 }
 
+body {
+    color: #696969;
+}
+
+
 .line {
-    width: 215px;
+    width: 210px;
     display: inline-block;
     border-top: 1px solid #696969;
     padding-bottom: 4px;
 }
 #carouselDiv{
     padding: 0 0 !important;
+    line-height: 0px;
 }
 
-.container {
-    height: 500px;
+.container{
+    max-height: 500px;
 }
 body{
     background:linear-gradient(to right ,rgb(187, 187, 240),#c8c8c8)
 }
 section {
-    margin-left: 250px;
-    margin-top: 100px;
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
     height: 600px;
-    width: 1100px;
     -webkit-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
     box-shadow: 1px 2px 8px 0px rgba(0, 0, 0, 0.75);
+}
+
+img{
+    vertical-align: bottom;
+    padding-bottom: -10px;
+}
+
+
+@media screen and (max-width:1500px) {
+    .divider{
+        display: none;
+    }
+}
+@media screen and (max-width:750px) {
+    #carouselDiv{
+        display: none;
+    }
+    .Form{
+        height: auto;
+    }
 }
